@@ -1,0 +1,25 @@
+
+/* CSS Document */
+
+tr:nth-child(odd){ background-color:#eee; }
+tr:nth-child(even){ background-color:#fff; }
+
+th{
+	background-color:#069;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	color:#FFF;
+	}
+	
+tr{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:22px;
+	}
+	
+#total_row{
+	background-color:#666;
+	color:#FFF;
+	}
+#total{
+	color:#FFF;
+	}
