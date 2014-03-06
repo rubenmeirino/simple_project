@@ -42,6 +42,14 @@ if (isset($_POST["color"])&& isset($_POST["city"])&& isset($_POST["votes"])){
 	}
 ?>
 <html>
+<head>
+<script>
+function My_embeded_JSfunction(){
+	alert('HI I embedded function');
+}
+</script>
+
+</head>
 <body>
 
 <!-- Form to insert new values to the database, just typing the color and set the color/city/votes values-->
